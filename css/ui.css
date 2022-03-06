@@ -700,7 +700,8 @@ li.nav-right-item {
   }
 }
 
-.next-post, .prev-post {
+.next-post,
+.prev-post {
   font-size: 1.5em;
 }
 
@@ -776,7 +777,7 @@ hr {
   margin-top: 2rem;
   margin-bottom: 1rem;
   margin-left: 0;
-  width: 24rem;
+  width: 85%;
   border-top: 2px solid {
      {
       .Site.Params.ColorTheme;
@@ -819,6 +820,27 @@ article img {
 
 .link-to-top {
   font-size: 1.5em;
+}
+
+.post-list {
+  padding: 0;
+}
+
+.post-list li {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 8px;
+}
+
+.post-item__info {
+  font-size: 0.7em;
+}
+.post-item__info span {
+  color: #777;
+}
+.post-item__info a {
+  color: #222;
 }
 
 /* #Print
